@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+main {
+    min-height: 100vh;
+    padding: 50px;
+}
+
+header .container, header div {
+    display: flex;
+    align-items: center;
+}
+
+header .container {
+    justify-content: space-evenly;
+
+}
+
+header {
+    padding: 30px 0;
+    background-color: #2e64b3;
+    font-weight: 600;
+}
+
+header a:not(.logo) {
+    color: white;
+    transition: 1s;
+}
+
+header a:hover:not(.logo) {
+    background-color: rgba(255, 255, 255, 0.822);
+    padding: 10px 2px;
+    border-radius: 10px;
+    color: #428eff;
+}
+
+
+header div {
+    gap: 50px;
+}
+
+.order_container {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.order_container>h1 {
+    text-align: center;
+}
+
+.orders {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    gap: 15px;
+}
+
+.order {
+    background-color: white;
+    padding: 30px;
+    margin: 2vw;
+    border-radius: 40px;
+    border: 1px solid gray;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    cursor: pointer;
+}
+
+.container:not(header .container, footer .container, .order_container .container) {
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+
+.bg_layot {
+    /* z-index: 2; */
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    height: 80vh;
+    min-height: 600px;
+}
+
+.bg>div {
+    margin: auto;
+    padding: 5vw 0 0 0;
+    width: fit-content;
+}
+
+.main_h1 {
+    background-color: rgba(255, 255, 255, 0.479);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 1vw 2vw;
+    border-radius: 5px;
+}
+
+.main_h1 span {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.logo {
+    color: white;
+}
+
+.about_us, .offer {
+    padding: 3vw;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h1-header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.about_us .right, .offer .left {
+    font-size: 20px;
+}
+
+.contacts li {
+    list-style-type: none;
+}
+
+.contacts div {
+    font-size: 20px;
+    padding: 50px;
+}
+
+footer {
+    background-color: #152c4e;
+    padding: 50px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer a:not(.logo) {
+    color: rgb(190, 190, 190);
+}
+
+footer a:not(.logo):hover {
+    color: rgb(226, 226, 226);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, select {
+    height: 50px;
+    width: 30%;
+}
+
+.button {
+    height: 50px;
+    width: 30%;
+    cursor: pointer;
+    font-weight: 600;
+
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #2e63b3;
+    color: white;
+}
+
+.section_hr {
+    margin-inline: 5vw auto;
+    display: block;
+    width: 60vw;
+}
+
+.btn {
+    color: white;
+    padding: 1vw 2vw;
+    min-width: 300px;
+    background-color: #234c88;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #18335c;
+}
+
+.calc_result {
+    margin: 5vh;
+    padding: 5vh;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.463);
+    border-radius: 5px;
+}
+
+.text_section {
+    padding-inline: 10vw;
+    text-align: center;
+}
+
+#comment_section {
+    display: none;
+}
+
+.empty_res_message {
+    text-align: center;
+    padding: 4vh 0;
+}
+
+input, select {
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.user_form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5vh;
+}
