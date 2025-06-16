@@ -12,16 +12,16 @@ include "functions/reg.php"
         <form action="" method="post">
             <br><br><br>
             <h3>Ваше ФИО</h3>
-            <input type="text" name="fullname">
+            <input type="text" name="fullname" required>
             <br>
             <h3>Номер телефона</h3>
-            <input type="text" id="phone" name="phone">
+            <input type="text" id="phone" name="phone" required>
             <br>
             <h3>Логин</h3>
-            <input type="text" name="login">
+            <input type="text" name="login" required>
             <br>
             <h3>Пароль</h3>
-            <input type="password" name="password">
+            <input type="password" name="password" required>
             <br>
             <?php
             if (isset($error)) {

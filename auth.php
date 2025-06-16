@@ -11,10 +11,10 @@ include "functions/auth.php"
         <form action="" method="post">
             <br><br><br>
             <h3>Логин</h3>
-            <input type="text" name="login">
+            <input type="text" name="login" required>
             <br>
             <h3>Пароль</h3>
-            <input type="password" name="password">
+            <input type="password" name="password" required>
             <br>
             <?php
             if (isset($error)) {
