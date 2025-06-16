@@ -7,6 +7,7 @@ include "functions/auth.php"
 
 <div class="container">
     <main>
+
         <h1 style="text-align: center; font-size: 50px">Авторизация</h1>
         <form action="" method="post">
             <br><br><br>
