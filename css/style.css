@@ -38,14 +38,14 @@ header a:not(.logo) {
 
 header a:hover:not(.logo) {
     background-color: rgba(255, 255, 255, 0.822);
-    padding: 10px 2px;
+    padding: 3px 2px;
     border-radius: 10px;
     color: #428eff;
 }
 
 
 header div {
-    gap: 50px;
+    gap: 20px;
 }
 
 .order_container {
