@@ -1,6 +1,7 @@
 <?php
-require "components/header.php";
 require "components/core.php";
+require "components/header.php";
+
 
 include "functions/auth.php"
 ?>

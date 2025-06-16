@@ -1,5 +1,5 @@
 <?php 
-ob_start();
+
 $link = new mysqli("localhost", "root", "", "logcomplex");
 
 $link->set_charset('utf8mb4');
